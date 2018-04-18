@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#please use this like :./attach 8545
+
+echo please use this like : ./attach 8545
+
+./geth attach http://localhost:${1}

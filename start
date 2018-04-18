@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+# ./start dev
+./parity --geth --config="./chains/${1}.toml" --gasprice="200000000"

@@ -1,0 +1,30 @@
+[parity]
+mode="last"
+chain = "foundation"
+base_path = "./data"
+db_path = "./data/chains"
+keys_path = "./data/keys"
+identity = "tinycalf"
+light = false
+
+[rpc]
+disable = false
+port = 10070
+interface = "local"
+cors = ["null"]
+apis = ["all"]
+hosts = ["127.0.0.1"]
+server_threads = 10
+
+[websockets]
+disable = false
+port = 10072
+interface = "local"
+origins = ["127.0.0.1"]
+apis = ["all"]
+hosts = ["127.0.0.1"]
+
+
+[network]
+min_peers = 25
+max_peers = 100

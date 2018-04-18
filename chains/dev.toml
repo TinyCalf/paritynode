@@ -1,0 +1,45 @@
+[parity]
+mode="active"
+chain = "dev"
+base_path = "./data"
+db_path = "./data/chains"
+keys_path = "./data/keys"
+identity = ""
+light = false
+
+[rpc]
+disable = false
+port = 8545
+interface = "local"
+cors = ["null"]
+apis = ["all"]
+hosts = ["all"]
+server_threads = 10
+
+[websockets]
+disable = false
+port = 8546
+interface = "local"
+origins = ["*"]
+apis = ["all"]
+hosts = ["all"]
+
+[mining]
+author = "00a329c0648769a73afac7f9381e08fb43dbea72"
+engine_signer = "00a329c0648769a73afac7f9381e08fb43dbea72"
+reseal_on_txs = "all"
+reseal_min_period = 2000
+reseal_max_period = 10000
+min_gas_price = 20000000000
+price_update_period = "10"
+gas_floor_target = "4700000"
+force_sealing = true
+
+[network]
+min_peers = 0
+max_peers = 50
+
+[account]
+unlock = ["00a329c0648769a73afac7f9381e08fb43dbea72"]
+password = ["./pass"]
+keys_iterations = 10240
