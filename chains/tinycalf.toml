@@ -10,7 +10,7 @@ public_node = false
 no_download = false
 no_consensus = false
 no_persistent_txqueue = false
-chain = "./tinycalfchain.json"
+chain = "./chains/tinycalf.json"
 base_path = "./data"
 db_path = "./data/chains"
 keys_path = "./data/keys"
@@ -40,8 +40,8 @@ hosts = ["all"]
 
 
 [mining]
-author = "00a329c0648769a73afac7f9381e08fb43dbea72"
-engine_signer = "00a329c0648769a73afac7f9381e08fb43dbea72"
+author = "0x08c43cd1d03dcce9ffe138165d5bb471e35b28b5"
+engine_signer = "0x08c43cd1d03dcce9ffe138165d5bb471e35b28b5"
 force_sealing = true
 reseal_on_txs = "all"
 reseal_min_period = 2000
@@ -85,6 +85,6 @@ max_peers = 50
 
 
 [account]
-# unlock = ["00a329c0648769a73afac7f9381e08fb43dbea72"]
-password = ["./pass"]
+unlock = ["0x08c43cd1d03dcce9ffe138165d5bb471e35b28b5"]
+password = ["pass"]
 keys_iterations = 10240
