@@ -10,8 +10,8 @@ light = false
 [rpc]
 disable = false
 port = 8545
-interface = "local"
-cors = ["null"]
+interface = "all"
+cors = ["all"]
 apis = ["all"]
 hosts = ["all"]
 server_threads = 10
@@ -25,8 +25,8 @@ apis = ["all"]
 hosts = ["all"]
 
 [mining]
-author = "00a329c0648769a73afac7f9381e08fb43dbea72"
-engine_signer = "00a329c0648769a73afac7f9381e08fb43dbea72"
+# author = "00a329c0648769a73afac7f9381e08fb43dbea72"
+# engine_signer = "00a329c0648769a73afac7f9381e08fb43dbea72"
 reseal_on_txs = "all"
 reseal_min_period = 2000
 reseal_max_period = 10000
@@ -40,6 +40,6 @@ min_peers = 0
 max_peers = 50
 
 [account]
-unlock = ["00a329c0648769a73afac7f9381e08fb43dbea72"]
+# unlock = ["00a329c0648769a73afac7f9381e08fb43dbea72"]
 password = ["./pass"]
 keys_iterations = 10240
