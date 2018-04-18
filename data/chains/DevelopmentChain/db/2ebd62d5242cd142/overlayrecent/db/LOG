@@ -891,3 +891,5 @@
 2018/04/18-16:28:55.433627 7fefde166140 EVENT_LOG_v1 {"time_micros": 1524040135433625, "job": 1, "event": "recovery_finished"}
 2018/04/18-16:28:55.433737 7fefde166140 [rocksdb/db/db_impl_files.cc:512] [JOB 2] Delete info log file ./data/chains/DevelopmentChain/db/2ebd62d5242cd142/overlayrecent/db//LOG.old.1524040135358091
 2018/04/18-16:28:55.439799 7fefde166140 [rocksdb/db/db_impl_open.cc:1111] DB pointer 0x7fefdbebdc00
+2018/04/18-17:47:31.674418 7fefde166140 [rocksdb/db/db_impl.cc:225] Shutdown: canceling all background work
+2018/04/18-17:47:31.675072 7fefde166140 [rocksdb/db/db_impl.cc:355] Shutdown complete
