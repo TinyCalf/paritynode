@@ -1,5 +1,5 @@
 [parity]
-mode="last"
+mode="active"
 chain = "foundation"
 base_path = "./data"
 db_path = "./data/chains"
