@@ -10,19 +10,19 @@ light = false
 [rpc]
 disable = false
 port = 8545
-interface = "all"
-cors = ["all"]
+interface = "local"
+cors = ["null"]
 apis = ["all"]
-hosts = ["all"]
+hosts = ["127.0.0.1"]
 server_threads = 10
 
 [websockets]
 disable = false
 port = 8546
 interface = "local"
-origins = ["*"]
+origins = ["all"]
 apis = ["all"]
-hosts = ["all"]
+hosts = ["none"]
 
 [mining]
 author = "00a329c0648769a73afac7f9381e08fb43dbea72"
@@ -34,6 +34,14 @@ min_gas_price = 20000000000
 price_update_period = "10"
 gas_floor_target = "4700000"
 force_sealing = true
+
+[ui]
+force = false
+disable = false
+port = 8180
+interface = "local"
+path = "./data/signer"
+
 
 [network]
 min_peers = 0
