@@ -1,9 +1,9 @@
 [parity]
 mode="active"
 chain = "dev"
-base_path = "./data"
-db_path = "./data/chains"
-keys_path = "./data/keys"
+base_path = "./dev"
+db_path = "./dev/chains"
+keys_path = "./dev/keys"
 identity = ""
 light = false
 
@@ -41,7 +41,6 @@ disable = false
 port = 8180
 interface = "local"
 path = "./data/signer"
-
 
 [network]
 min_peers = 0

@@ -2,4 +2,4 @@
 
 
 # ./start dev
-parity ui --geth --config="./chains/${1}.toml" --gasprice="200000000"
+parity --geth --config="./chains/${1}.toml" --gasprice="200000000"

@@ -1,7 +1,11 @@
 #!/bin/bash
 
-#please use this like :./attach 8545
+#please use this like :./attach main
 
-echo please use this like : ./attach 8545
 
-./geth attach http://localhost:${1}
+if [ "${1}" = "main" ]
+then
+    ./geth attach http://localhost:39842
+else
+    ./geth attach http://localhost:8545
+fi
