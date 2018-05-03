@@ -1,0 +1,29 @@
+[parity]
+chain = "./tinycalf.json"
+base_path = "./tinycalf"
+
+[network]
+port = 9300
+
+[rpc]
+port = 8545
+apis = ["all"]
+interface = "local"
+cors = ["*"]
+hosts = [""]
+
+[websockets]
+port = 9302
+
+[ui]
+port = 9303
+
+[ipc]
+disable = true
+
+[account]
+password = ["./password"]
+
+[mining]
+engine_signer = "0x212e754b95f99799aab5686ab21cf45a5f7e4000"
+reseal_on_txs = "none"

@@ -27,7 +27,7 @@ hosts = ["none"]
 
 [network]
 port = 30303
-min_peers = 2
+min_peers = 3
 max_peers = 100
 id = 3
 bootnodes = [
@@ -35,4 +35,11 @@ bootnodes = [
 "enode://6ce05930c72abc632c58e2e4324f7c7ea478cec0ed4fa2528982cf34483094e9cbc9216e7aa349691242576d552a2a56aaeae426c5303ded677ce455ba1acd9d@13.84.180.240:30303",
 ]
 reserved_peers = "./chains/ropstenpeers.txt"
-reserved_only = true
+reserved_only = false
+
+[ui]
+force = false
+disable = false
+port = 8180
+interface = "local"
+path = "./ropsten/signer"

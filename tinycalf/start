@@ -1,0 +1,3 @@
+#!/bin/bash
+
+parity ui --geth --config="./tinycalf.toml"
