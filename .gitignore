@@ -1,5 +1,6 @@
 /data
-/main
+/main/data
 /dev
-/ropsten
+/ropsten/data
 nohup.out
+tinycalf/
